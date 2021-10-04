@@ -42,7 +42,6 @@ localhost:8000/
 ~~~
 
 # Developers 
-Built with passion by;
+Built with passion by
 
-Chidera Onwurah  
-Aynain Ali 
+Chidera Onwurah and Aynain Ali 
