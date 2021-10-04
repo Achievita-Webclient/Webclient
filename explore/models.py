@@ -1,6 +1,11 @@
 from django.db import models
 from django.contrib.auth.models import User
 
+#This is basically for switching item uploads 
+STATUS = (
+    (0,"Draft"),
+    (1,"Publish")
+)
 
 #Using some codes from our faq codes on fb to save time
 class Post(models.Model):
@@ -18,9 +23,3 @@ class Post(models.Model):
     def __str__(self):
         return self.title
         
-#This is basically for switching item uploads 
-STATUS = (
-    (0,"Draft"),
-    (1,"Publish")
-)
-
