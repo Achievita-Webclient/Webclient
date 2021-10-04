@@ -2,8 +2,8 @@
 A mini a web app that interfaces with the achievita mobile app
 
 # Requirement
-django 3.0.0
-python 3
+* django 3.0.0,
+* python 3.5 or higher
 
 ~~~sh
 pip install django==3.0.0
