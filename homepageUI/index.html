@@ -1,0 +1,454 @@
+
+<!-- Header Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<header>
+  <div class="container"> <img src="icon.png" alt="logo" class="logo">
+    <div class="main_nav">
+      <div class="mobile-toggle"> <span></span> <span></span> <span></span> </div>
+      <nav>
+        <ul>
+          <li><a class="smoothscroll" href="#about">About</a></li>
+          <li><a class="smoothscroll" href="#features">Features</a></li>
+          <li><a class="smoothscroll" href="#contact">Explore</a></li>
+          <li><a class="smoothscroll" href="#contact">FAQ</a></li>
+          <li><a class="smoothscroll" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="row hero">
+      <div class="eight columns">
+        <h1 class="header">Achievita</h1>
+        <h2 class="subheader">Productivity App</h2>
+        <p class="paragraph">Achievita is a productivity app leverages the SMART goal setting strategies, to enjoin users to easily set attainable goals and tasks in a way that keeps them focused and levels up their productivity.</p>
+        <a href="#"><img src="app-store-badge.png" class="appstorebutton btn" alt="Download on Apple Store"></a> <a href="#"><img src="google-play-badge.png" class="appstorebutton btn" alt="Download on Google Play"></a> </div>
+      <div class="four columns"> <img src="phone2.png" class="phone device" alt="phone mockup"> </div>
+    </div>
+  </div>
+<style>
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800';
+/* Global Styles
+********************************************************************* */
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans';
+	font-size: 16px;
+	font-weight: 300;
+	color: #525252;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; }
+
+.column, .columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box; }
+
+.column, .columns {
+  margin-left: 4%; }
+
+.column:first-child, .columns:first-child {
+  margin-left: 0; }
+
+.one.column, .one.columns {
+  width: 4.66667%; }
+
+.two.columns {
+  width: 13.33333%; }
+
+.three.columns {
+  width: 22%; }
+
+.four.columns {
+  width: 30.66667%; }
+
+.five.columns {
+  width: 39.33333%; }
+
+.six.columns {
+  width: 48%; }
+
+.seven.columns {
+  width: 56.66667%; }
+
+.eight.columns {
+  width: 65.33333%; }
+
+.nine.columns {
+  width: 74%; }
+
+.ten.columns {
+  width: 82.66667%; }
+
+.eleven.columns {
+  width: 91.33333%; }
+
+.twelve.columns {
+  width: 100%;
+  margin-left: 0; }
+
+.one-third.column {
+  width: 30.66667%; }
+
+.two-thirds.column {
+  width: 65.33333%; }
+
+.one-half.column {
+  width: 48%; }
+
+.offset-by-one.column, .offset-by-one.columns {
+  margin-left: 8.66667%; }
+
+.offset-by-two.column, .offset-by-two.columns {
+  margin-left: 17.33333%; }
+
+.offset-by-three.column, .offset-by-three.columns {
+  margin-left: 26%; }
+
+.offset-by-four.column, .offset-by-four.columns {
+  margin-left: 34.66667%; }
+
+.offset-by-five.column, .offset-by-five.columns {
+  margin-left: 43.33333%; }
+
+.offset-by-six.column, .offset-by-six.columns {
+  margin-left: 52%; }
+
+.offset-by-seven.column, .offset-by-seven.columns {
+  margin-left: 60.66667%; }
+
+.offset-by-eight.column, .offset-by-eight.columns {
+  margin-left: 69.33333%; }
+
+.offset-by-nine.column, .offset-by-nine.columns {
+  margin-left: 78%; }
+
+.offset-by-ten.column, .offset-by-ten.columns {
+  margin-left: 86.66667%; }
+
+.offset-by-eleven.column, .offset-by-eleven.columns {
+  margin-left: 95.33333%; }
+
+.offset-by-one-third.column, .offset-by-one-third.columns {
+  margin-left: 34.66667%; }
+
+.offset-by-two-thirds.column, .offset-by-two-thirds.columns {
+  margin-left: 69.33333%; }
+
+.offset-by-one-half.column, .offset-by-one-half.columns {
+  margin-left: 52%; }
+
+.container:after, .row:after, .u-cf {
+  content: "";
+  display: table;
+  clear: both; }
+
+@media (max-width: 550px) {
+  .column, .columns {
+    margin-left: 0; }
+  .container {
+    width: 80%; }
+  article {
+    padding: 3rem 0; }
+  .one.column, .one.columns {
+    width: 100%; }
+  .two.columns {
+    width: 100%; }
+  .three.columns {
+    width: 100%; }
+  .four.columns {
+    width: 100%; }
+  .five.columns {
+    width: 100%; }
+  .six.columns {
+    width: 100%; }
+  .seven.columns {
+    width: 100%; }
+  .eight.columns {
+    width: 100%; }
+  .nine.columns {
+    width: 100%; }
+  .ten.columns {
+    width: 100%; }
+  .eleven.columns {
+    width: 100%; }
+  .twelve.columns {
+    width: 100%;
+    margin-left: 0; }
+  .one-third.column {
+    width: 100%; }
+  .two-thirds.column {
+    width: 100%; }
+  .one-half.column {
+    width: 100%; } }
+
+a {
+	color: #FFFFFF;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+/* Typography
+********************************************************************* */
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+	margin: 0;
+}
+h1 {
+	font-size: 44px;
+}
+/* Header Section
+********************************************************************* */
+
+header {
+	background: #0469A7;
+	min-height: 800px;
+	padding: 0px 0 50px 0;
+	box-sizing: border-box;
+	background-image: url(bg.png);
+	background-size: cover;
+}
+header h1 {
+	font-size: 66px;
+	color: #FFFFFF;
+	padding-top: 70px;
+	font-weight: 600;
+}
+header h2 {
+	color: #FFFFFF;
+}
+header p {
+	color: #FFFFFF;
+}
+.hero {
+	margin-top: 80px;
+}
+.appstorebutton {
+	display: inline-block;
+	max-height: 50px;
+	width: auto;
+	padding-top: 40px;
+	padding-right: 10px;
+}
+.phone {
+	max-width: 220px;
+	height: auto;
+	float: right;
+}
+.logo {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	max-width: 100px;
+	height: auto;
+}
+.main_nav {
+	top: 0px;
+	max-height: 50px;
+	z-index: 999;
+	width: 100%;
+	padding-top: 10px;
+	overflow: hidden;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	padding-bottom: 6px;
+}
+.socialIcons {
+	color: #FFFFFF;
+	font-size: 28px;
+}
+
+@media only screen and (max-width: 766px) {
+.main_nav {
+	padding-top: 10px;
+}
+}
+.open-nav {
+	max-height: 300px !important;
+}
+nav {
+	width: 100%;
+	margin-top: 5px;
+}
+
+@media only screen and (max-width: 766px) {
+nav {
+	width: 100%;
+}
+}
+nav ul {
+	list-style: none;
+	overflow: hidden;
+	text-align: right;
+	padding: 0;
+}
+
+@media only screen and (max-width: 766px) {
+nav ul {
+	padding-top: 0px;
+	margin-bottom: 22px;
+	text-align: right;
+	width: 100%;
+}
+}
+nav ul li {
+	display: inline-block;
+	margin-left: 35px;
+	line-height: 1.5;
+	letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 766px) {
+nav ul li {
+	width: 100%;
+	padding: 7px 0;
+	margin: 0;
+}
+nav ul li:first-child {
+	margin-top: 70px;
+}
+}
+nav ul a {
+	text-transform: uppercase;
+	font-size: 12px;
+	text-decoration: none;
+}
+nav ul a:hover {
+	color: #CFCFCF;
+}
+.mobile-toggle {
+	display: none;
+	cursor: pointer;
+	font-size: 20px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	width: 30px;
+}
+
+@media only screen and (max-width: 766px) {
+.mobile-toggle {
+	display: block;
+}
+}
+.mobile-toggle span {
+	width: 30px;
+	height: 4px;
+	margin-bottom: 6px;
+	background: #ffffff;
+	display: block;
+}
+/* Footer Section
+********************************************************************* */
+
+footer {
+	background-color: #424242;
+	padding: 50px 0 50px 0;
+}
+footer p {
+	color: #FFFFFF;
+	text-align: right;
+}
+.icon {
+	font-size: 48px;
+}
+
+/* Media Queries
+********************************************************************* */
+
+@media only screen and (max-width: 766px) {
+header h1 {
+	font-size: 46px;
+	padding-top: 10px;
+}
+.hero {
+	margin-top: 40px;
+}
+.appstorebutton {
+	padding-top: 0px;
+}
+.logo {
+	max-width: 70px;
+}
+}
+
+@media only screen and (max-width: 550px) {
+.mobile-toggle {
+	right: 0px;
+	top: 20px;
+}
+ .phone {
+	display: none;
+}
+}
+
+</style>
+</header>
+
+<!-- content shaa lol. Aynna I had to remove the part am still working on  so it won't cause any issue -->
+
+<!-- Footer Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<footer>
+  <div class="container">
+    <div class="six columns"> <span class="typcn typcn-social-facebook socialIcons"></span> <span class="typcn typcn-social-twitter socialIcons"></span> <span class="typcn typcn-social-instagram socialIcons"></span> <span class="typcn typcn-social-linkedin socialIcons"></span> </div>
+    <div class="six columns">
+      <p>Achievita &copy; 2021</p>
+    </div>
+  </div>
+</footer>
+<script>
+// Mobile Navigation
+$('.mobile-toggle').click(function() {
+    if ($('.main_nav').hasClass('open-nav')) {
+        $('.main_nav').removeClass('open-nav');
+    } else {
+        $('.main_nav').addClass('open-nav');
+    }
+});
+
+$('.main_nav li a').click(function() {
+    if ($('.main_nav').hasClass('open-nav')) {
+        $('.navigation').removeClass('open-nav');
+        $('.main_nav').removeClass('open-nav');
+    }
+});
+
+
+
+// Smooth Scrolling
+
+jQuery(document).ready(function($) {
+
+   $('.smoothscroll').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash,
+	    $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 800, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
+
+});
+
+TweenMax.from(".device", 0.8, {y: 50, opacity: 0, ease:Back.easeOut, delay: 1});
+TweenMax.from(".header", 0.8, {opacity: 0, x: 30, delay: 0.2});
+TweenMax.from(".subheader", 1, {opacity: 0, x: -30, delay: 0.6});
+TweenMax.from(".paragraph", 1, {opacity: 0, delay: 1, y: 20});
+TweenMax.from(".btn", 0.5, {y: 10, opacity: 0, delay: 1.6});  
+</script>
+
