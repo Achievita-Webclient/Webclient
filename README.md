@@ -1,6 +1,9 @@
 # Webclient
 A mini a web app that interfaces with the achievita mobile app
 
+<p align="center">
+    <img title="Dashboard" height="200" src="https://github.com/Achievita-Webclient/Webclient/blob/main/homepageUI/Screenshot%20from%202021-10-10%2001-08-23.png" width="50%"/>
+</p>
 # Requirement
 * django 3.0.0,
 * python 3.5 or higher
